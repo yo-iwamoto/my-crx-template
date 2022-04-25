@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "my-crx-example",
+  "version": "0.1.0",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["clipboardWrite", "activeTab"],
+  "host_permissions": ["<all_urls>"]
+}
